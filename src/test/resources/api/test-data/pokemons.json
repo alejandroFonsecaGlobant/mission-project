@@ -1,0 +1,37 @@
+[
+  {
+    "id": 25,
+    "name": "Pikachu",
+    "exists": true
+  },
+  {
+    "id": 4,
+    "name": "Charmander",
+    "exists": true
+  },
+  {
+    "id": 7,
+    "name": "Squirtle",
+    "exists": true
+  },
+  {
+    "id": 25,
+    "name": "PikachU",
+    "exists": true
+  },
+  {
+    "id": 4,
+    "name": "CHARMANDER",
+    "exists": true
+  },
+  {
+    "id": 7,
+    "name": "SqUiRtLe",
+    "exists": true
+  },
+  {
+    "id": -1,
+    "name": "LacClippers",
+    "exists": false
+  }
+]
