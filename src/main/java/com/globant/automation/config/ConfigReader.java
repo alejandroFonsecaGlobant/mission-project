@@ -75,4 +75,13 @@ public class ConfigReader {
     else
       throw new RuntimeException("window.size not found in the config.properties file");
   }
+
+  public String getSeleniumGridUrl() {
+    String gridUrl = properties.getProperty("seleniumgrid.url");
+    if (gridUrl != null) {
+      return gridUrl;
+    }
+    else
+      throw new RuntimeException("seleniumgrid.url not found in the config.properties file");
+  }
 }
