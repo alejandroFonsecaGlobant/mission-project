@@ -13,7 +13,7 @@ pipeline {
         }
         stage('Test') {
             steps {
-                sh 'mvn test -Dcucumber.filter.tags="@web"'
+                sh 'mvn test -Dcucumber.filter.tags="@web or @api"'
             }
         }
     }
