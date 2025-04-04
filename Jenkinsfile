@@ -29,6 +29,11 @@ pipeline {
                 sendSlackMessage("Pipeline execution failed...")
             }
         }
+        unstable {
+            script {
+                sendSlackMessage("Pipeline execution finished with issues...")
+            }
+        }
         always {
             allure includeProperties: false, jdk: '', results: [[path: 'allure-results']]
         }
