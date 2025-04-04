@@ -1,7 +1,7 @@
 pipeline {
     agent any
 
-    environments {
+    environment {
         SLACK_WEBHOOK_URL = credentials('SLACK_WEBHOOK_URL')
     }
 
